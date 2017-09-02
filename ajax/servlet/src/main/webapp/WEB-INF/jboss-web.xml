@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-web>
+	<context-root>/ajax/servlet</context-root>
+
+    <!--
+
+    http://localhost:8078/ajax/servlet/index.html
+    http://localhost:8078/ajax/servlet/SimpleAjaxServlet
+    http://localhost:8078/ajax/servlet/ListAjaxServlet
+
+    http://localhost:8078/ajax/servlet/jsp/servlet.jsp
+    -->
+</jboss-web>  

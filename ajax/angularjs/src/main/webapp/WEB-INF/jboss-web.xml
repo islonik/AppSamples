@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-web>
+	<context-root>/ajax/angularjs</context-root>
+
+    <!--
+
+    http://localhost:8078/ajax/angularjs/index.html
+
+    http://localhost:8078/ajax/angularjs/ajax/prefix/test
+
+    -->
+
+</jboss-web>  

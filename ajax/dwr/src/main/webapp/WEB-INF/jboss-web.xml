@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-web>
+	<context-root>/ajax/dwr</context-root>
+
+    <!--
+
+    http://localhost:8078/ajax/dwr/index.html
+    http://localhost:8078/ajax/dwr/jsp/hello.jsp
+
+    http://localhost:8078/ajax/dwr/jsp/dwrtest.jsp
+
+Modules known to DWR:
+    http://localhost:8078/ajax/dwr/dwr/index.html
+
+    -->
+</jboss-web>  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AngularJs</title>
+
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script>
+    <script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+    <script type='text/javascript' src='js/index.js'></script>
+</head>
+<body ng-app="app">
+    <!-- ctrl + shift + r for chrome means drop cache -->
+
+    <h1>Bunch of examples for AngularJs module.</h1>
+
+    <h2>---------------------- Example 1 ------------------------</h2>
+    <div ng-controller="indexCtrl1">
+        <h2>{{welcome1}}</h2>
+        <h2>{{welcome2}}</h2>
+    </div>
+
+    <h2>---------------------- Example 2 ------------------------</h2>
+    <div ng-app="">
+        <p>Input something in the input box:</p>
+        <p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+        <h1>Welcome {{name}}</h1>
+    </div>
+
+    <h2>---------------------- Example 3 ------------------------</h2>
+    <div ng-controller="indexCtrl3">
+
+        First Name: <input type="text" ng-model="firstName"><br>
+        Last Name: <input type="text" ng-model="lastName"><br>
+        <br>
+        Full Name: {{firstName + " " + lastName}}
+    </div>
+
+    <h2>---------------------- Example 4 ------------------------</h2>
+    <div ng-controller="indexCtrl4">
+
+        Prefix: <input type="text" ng-model="prefix">
+        <input type="button" value="Send" ng-click="ajax()"/>
+        <br>
+        ID:   <input id="idResult" type="text" value="{{idResp}}" readonly/>
+        Full: <input id="fullResult" type="text" value="{{fullResp}}" readonly/>
+    </div>
+</body>
+</html>
